@@ -19,6 +19,7 @@ body {
 	background-color: #444;
   overflow: hidden;
   font-family: fonto;
+  overflow: hidden;
 }
 
 
@@ -56,35 +57,36 @@ body {
   height:100vh;
   font-size: 5vh;
   margin: auto;
+  overflow: hidden;
+  margin:0;
 }
 
 .container > div{
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .container > img{
   height: 100vh;
-  border-left: 10px solid rgba(33,48,39,.8);
-  border-right: 10px solid rgba(33,48,39,.8);
+  width: 100%;
 }
 
 #enter{
-  padding: 25px;
+  padding: 5px;
   margin: auto;
   background-color: rgba(33,48,39,.7);
   border-radius: 25px;
   z-index:100;  
   font-size: 20px;
-  width: 50%;
+  width: 70%;
   
 }
 
 
 #name, #password{
-  font-size: 20px;
+  font-size: 18px;
   width: 60%;
   position: relative;
 }
@@ -98,12 +100,19 @@ body {
 
 #textName{
   padding: 25px;
-  margin-top: 150px;
   background-color: rgba(33,48,39,.7);
   border-radius: 25px;
   z-index:100;  
-  font-size: 1.75vh;
-  width: 50%;
+  font-size: 20px;
+  max-height: 70%;
+  width: 70%;
+  overflow-y: auto;
+}
+
+#gifter{
+  color:aquamarine;
+  font-weight: bold;
+  text-decoration: underline;
 }
 /* .song {
 max-width:400px;
