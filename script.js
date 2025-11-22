@@ -1,64 +1,14 @@
 var gifter = ['Marianne Mah she/her', 'Sarah H. (she/her)', 'Lochlan Neff - she/her', 'Pedro, He/Him', 'Nigel Weiss (he/him)', 'Lizbeth she/her', 'Chaz He/They', 'Lynna (she/her)', 'Catherine Boland (she/her)', 'Nada, she/her', 'Madison Siu (she/her)', 'Chrystopher He/Him', 'Wyatt Hsu he/him', 'Carlos Herrera', 'Taisei Clemens (He/Him)', 'Eddie', 'JD (They/Them)', 'Rhea'];
 
-var recieve = ['Joshua Almario he/him',
-              'Lynna (she/her)',
-              'Eddie he/him',
-              'Nilasha she/her',
-              'Vy Nguyen (she/her)',
-              'Amrita Vinjamury, she/her',
-              'Sammantha Garcia (she/her/hers)',
-              'Rene He/Him',
-              'amon any pronouns',
-              'Kimo They/Them',
-              'Chad Ferguson/ he/him/his',
-              'Taisei Clemens (He/Him)',
-              'Wyatt Hsu he him',
-              'Carlos Herrera / He/Him',
-              'Grayson Appell, he him',
-              'JD (They/Them)',
-              'tika she/her',
-              'Sarah (she/her)'];
+var recieve = ['Taisei Clemens (He/Him)', 'Lynna (she/her)', 'Sarah H. (she/her)', 'Madison Siu (she/her)', 'Marianne Mah she/her', 'Rhea', 'JD (They/Them)', 'Wyatt Hsu he/him', 'Chrystopher He/Him', 'Lochlan Neff - she/her', 'Nada, she/her', 'Lizbeth she/her', 'Eddie', 'Chaz He/They', 'Nigel Weiss (he/him)', 'Carlos Herrera', 'Catherine Boland (she/her)', 'Pedro, He/Him'];
 
-var shopper = [
-  'I am fascinated with crows and plague doctors! There are some plague doctor plushies at Games of Berkeley that I’ve been meaning to get *hint hint*',
-  'I love cooking, eating out, boba, reading, watching movies, and trying out fun and interesting snacks!',
-  'Interests include reading manga, watching movies, going to concerts, and playing video games. I have been recently into collecting Mangas, specifically dandadan, chainsaw man or spy x family. ',
-  'Paint by numbers, legos, biking, the color blue, baking',
-  'Hi! I cook very often and would love any cookware. In particular, I could use a microplane, baking sheet/pan, an electric/hand whisk, a baking cooling rack, measuring cups (dry/liquid/cup are fine), or a metal colander! I have been meaning to get a microwavable eye mask for when I sleep, so that would be lovely too. I also spend a lot of time on my laptop so I would appreciate a laptop stand (macbook 14 inch) or a keyboard wrist rest. Besides that, I like floral candles and in terms of food, love lifesaver gummies, sour patch watermelon candies, and tea packs. If any of those are hard, a nintendo eshop card can be found pretty much anywhere and would be totally cool as well! Hope that is helpful and I appreciate it so much! Thank you!',
-  'I love to watch movies and tv ( a lot of sitcoms like friends, new girl, schitts creek, etc), I love to yap, I love arts and crafts, and I love reading mystery or romance novels. I love eating chips, especially jalapeno or spicy ones,  sour punch straw bites, and chocolate covered fruits.',
-  'Fuzzy socks, mugs, gift card for bookstore or jamba juice', 
-  'Coffee, Zelda, Steam games, Nintendo games, Falafel Boy, Sushi',
-  'i hate food. i would love a gift that makes my life slightly more convenient or maybe a book that some smart person wrote about some STEM or economics subject',
-  'Food is a good gift! I am down for anything. Allergies (Mangos, Dairy, Walnuts) Also anything bird related is cute.',
-  'In my free time during the winter, I like going snowboarding as much as possible! Maybe a pair of warm socks or something like that would be great. In terms of food and treats, gift cards for any places like in n out, chick-fil-a, pizza places, smoothie places, etc is another option!',
-  'Something I would like as a gift is a very nice 0.5 mechanical pencil and some lead to go with it.',  
-  'I like sports, music, programming (obviously), cooking',
-  'I love LEGOS, NASCAR, and Cal or Niners merch! In terms of eat/drink, I like trying new things, especially uncommon snacks/drinks you cant find in a normal store. I like to play video games, watch sports, read, and cook. If you are having figuring out a gift, I also love Takis and regular snacks as well. I appreciate a bunch of snacks the same way I appreciate anything else because its the giving that matters, not the gift!',
-  'I love the mountains and gummy bears',
-  'Music: Taylor Swift, Janelle Monae, Underscores. Video games: (ALL horror games, Outlast Trials, The Sims, Night in the Woods, Stardew Valley, Fortnite). I love Frankenstein. I enjoy jokes more than anything, so any level of unnecessarily obscure or convoluted humor would also make me so happy!',
-  'i love to paint, draw, do crafts and read. fav snacks are chips and dark chocolate.', 
-  'rabbit toys, boba (matcha <3 ) (not from plentea plz), VBUCKS B), Gojo/Jujutsu Kaisen, pokemon go, Shiny Ditto'
+var shopper = ["Recently I have developed somewhat of an addiction to math and physics, which means I need a lot of blank surfaces to write on. So yeah, I'm asking for reams of printer paper.", "Matcha, ice cream, boba, books, cooking", "I love k-pop (TXT!!! Yeonjun, CORTIS, LE SSERAFIM, & Katseye), drinking matcha, playing games (fortnite, marvel rivals, stardew valley), reading books, Pokemon (shiny ditto!), and watching shoujo anime/reading shoujo manga!", "Interests: graphic design, cool Rubik's cubes, thrifting, scrapbooking, film photography, Food: any coffee/tea/boba (any sweet drink really), corn, Restraunts/cafes/shops: Cheeseboard, Cafenated, Heytea, Ike's Sandwiches", "I get boba basically everyday! (I frequent yifang but go to them all, I'd love to try your favorite), I devour bags of Trader Joe's sour cream and onion corn puffs, I'd love to try your favorite food/snack place around Berkeley, Tower 28 red bean mochi lip treatment or Summer Fridays vanilla beige lip butter balm or your favorite lip gloss brand in similar shade if you have one, anything miffy or ghibli!", "going to concerts, coffee shops, caffeinated coffee shop, yali's cafe on oxford, asha tea house, cheeseboard, i like running and hiking in free time. would be happy with a cool book or trinket!", "Music: Rebecca Black, Janelle Monae, Underscores. I love Frankenstein and the Guillermo del Toro version is my favorite movie, tied with Wicked. Tony, the Squirrel that I am desperately trying to make the new mascot of the Coder School. Honestly, I think I just enjoy jokes more than anything, so any level of unnecessarily obscure or convoluted humor would make me so happy!", "Salsa Verde or (challenge) Taiwanese Szechuan peppercorn chicken Doritos, I also like unique, interesting food that still tastes good.", "I like video games, I love candy especially fruit flavored candy and stuffed animals that look like cats", "I take care of plants at home, I have been collecting old technology recently, I (obviously) love programming and spend a lot of my time on it, I have a deep love for olives and go through 4 jars a week (I wish I had some more exotic kinds), I love tea and tend to drink pu-erh, a chinese earthy tea, I have a nintendo switch 1 and use it frequently, and I love rhythm games with a passion!", "1. Pilot kakuno fine point 😇😇 (purple? cheapest color idc) and it would be cool if it came w an ink converter too 😌😌, 2. Moka pot (but the cheap ones), 3. Maybe a blanket? But some kind of cartoon or picture on it! Idc what, any movie or franchise, just something interesting 😌, 4. In general I like drawing, coffee, reading etc etc nerdy stuff like that so anything useful that's also interesting", "Reading, F1, matcha, mango flavored candy, soccer.", "I'm always been into One Piece, mostly the manga and the tcg. My favorite food place in the area is The Butcher's Son. Usually I play games on my PC or Switch 2 so a gift card to Steam or Nintendo would totally be all good with me. I would love to get a really nice fidget toy that is fairly small and pocketable.", "I love to Knit and Bake. I also really enjoy things surrounding Pokémon or Stardew Valley. I'm always looking to try new coffee shops/ cafes with Cafenated Coffee Company and Souvenir Coffee being my favorites so far. In my free time I enjoy going to different comic stores (specifically looking for Batman/ Gotham based comics) or record stores to explore.", "I like music, specifically playing jazz with people on saxophone, making fun cs/electronics projects, and playing board games. My favorite things to eat are pastries. I would love any sort of funny or cool trinket/decorative thing, a card game, or some kind of food gift card.", "Im a big horror fan, like movies like The Thing, love football and NASCAR, love legos and other displayable trinkets. In general though I'm a big fan of trying different food from restaurants or even snacks I would've never bought unless someone told me about them! I also have no allergies, so I'm down to try anything!", "Some of my interests are ceramics, writing, sketching, and printmaking. I love poetry, tea, books, figurines, and cute things. Around campus, I like eating at Artichoke Pizza, Koja Kitchen, and Jaffa Coffee. I also like Pegasus Books.", "I like to play the guitar and bass. I also like to play and make games. Some of my favorite restaurants are oori rice triangle, cheeseboard, and mensho SF. Some gift ideas I'd love include: a guitar stand, or a guitar bag. I'm super open to anything though!", ''
 ];
 
+var trivia=["Secrets of the Silent Witch, Hololive, Nakiri Ayame, Tetris, See Tinh, Project Sekai - Colorful Stage, Terraria, Linear Algebra, Frieren: Beyond Journey's End, Nichijou", "The Office, 80s music, TV Shows from the 80s, Movies from the 80s, Food/Cooking, Travel/Geography, NYT word games, UC Berkeley, Hamilton", "Marvel Movies, The Summer I Turned Pretty, Jujutsu Kaisen, Attack on Titan, Invincible, Games: Stardew Valley and Fortnite, Pokemon, Music: TXT, Jennie (from blackpink), Lisa (from blackpink), Yeonjun, Olivia Rodrigo, Katseye, Hamilton and Phantom of the Opera for musicals, Twilight", "Brooklyn 99, Greys Anatomy, Now You See Me (movies), graphic design, typography, Olivia Dean, The Marias, Rummikub, Sudoku", "-Howls Moving Castle (Movie), -10 Things I Hate About You (Movie), -Gilmore Girls (Show), -Business Proposal (K-Drama), -Valorant (Video Game), -Minecraft (Video Game), -Boba shops in Berkeley (Hobby), -Collecting Smiskis (Hobby), -the Marias (Band), -Keshi (Singer)", "parks and recreation, new girl, studio ghibli films, running outdoors, little simz, hiking, picnics, baking dessert, exploding kittens", "Romanov Russian History, Riverdale (TV Show), Harley Quinn (DC), Women in modern pop music, Buffy the Vampire Slayer, Next to Normal (Broadway)", "Hollow Knight, Riot Games, Alt-pop music, NBA, Multivariable Calculus, Programming, Instruments, Books", "Young Justice, Bojack Horseman, Poppy Playtime, Billie Eilish, Bioshock, DC, HER, Stray, Spiderverse movies, The Whale", "I'm a big fan of the music artist Laufey, My favorite movie is I Saw the TV Glow, I play the video game Celeste at a high level, I know a lot about and really like the niche computer science topic of splines and bezier curves, I was a pokémon kid and still kept the knowledge, I have recently watched the TV show lost and enjoyed it a lot, I'm really into the video game deltarune, I know a lot the The Legend of Zelda game series trivia", "Harry Potter, Game of Thrones (the books!), Frank Ocean, Big Hero 6, Cookie Run Kingdom, Kill Bill (movies), Kung Fu Panda, Reading, minecraft, Justin bieber", "Grey’s Anatomy, Soccer, F1, Superman, Modern Family", "Movies: The Dark Knight, Paddington 2, How the Grinch Stole Christmas, Shows:Parks and Recreation, Avatar the last Airbender, Bleach, Games: Kingdom Hearts, Silksong, Legend of Zelda Breath of the Wild, Music: Gorillaz, Streetlight Manifesto, Rebecca Black, CODING", "Batman/ Gotham Vigilantes (Comics), Grey's Anatomy (Show), Pokémon (Games), How I met Your Mother (Show), Stardew Valley (Game), James Gunn's DCU (Movies/Shows), 911/ 911 Lonestar (Show), Multivariable Calculus (Hobby), Mountain Biking (Hobby), Musical Theater (Hamilton, Heathers, Be More Chill, Addams Family Musical, Starkid Musicals , Ride the Cyclone, Dear Even Hansen)", "Breaking Bad, jazz, Super Smash Bros, Monopoly, The Beatles, The Office, the Bay Area, geography, famous bands, Marvel.", "Horror (Movies, Games), History, Music (Rock), Video Games, Sitcoms (The Office, Parks and Rec), Dramas (Breaking Bad, Better Call Saul), Geography, Vexilology", "Arcane, berkeley social movements, ceramics", "Dark souls, Hylics, Spiderman, Jojos bizarre adventure, breaking bad, final fantasy, one piece, Flying Lotus, MF DOOM, manga in general"]
+
                
-var food = ['N/A',
-           'None',
-           'Vegang (vegan)',
-           'N/a',
-           'I am allergic to all nuts and typically avoid foods with high soybean or sesame content. Thanks!',
-           'vegetarian',
-           'N/A',
-           'No',
-           'vegetarian allergic to pineapple',
-           '(Mangos, Dairy, Walnuts)',
-           'No',
-           'No',
-           'No',
-           'N/A',
-           'No',
-           'Vegan',
-           'vegetarian',
-           'a little sensitive to pork' ];
+var food = ["Honey", "No", "No", "No", "No", "I'm mainly Vegetarian but will eat Chicken. ", "peanuts/treenuts", "No", "peanuts/treenuts", "No", "No", "Honey", "No", "I'm mainly Vegetarian but will eat Chicken. ", "peanuts/treenuts", "peanuts/treenuts", "peanuts/treenuts", "Honey"];
 
 
 
