@@ -48,6 +48,7 @@ function answer() {
       document.body.innerHTML = document.body.innerHTML.replace('XXXX', gifter[i]);
       document.body.innerHTML = document.body.innerHTML.replace('YYYY', recieve[i]);
       document.body.innerHTML = document.body.innerHTML.replace('ZZZZ', shopper[i]);
+		document.body.innerHTML = document.body.innerHTML.replace('QQQQ', trivia[i]);
       document.body.innerHTML = document.body.innerHTML.replace('UUUU', food[i]);
 			textName.style.display = "block";
       enter.style.display = "none";
