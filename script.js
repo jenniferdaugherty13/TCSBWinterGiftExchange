@@ -56,7 +56,8 @@ function answer() {
 		} 
   }
   alert("Error: Name and password do not match. The password is case sensitive. Please try again!");
-}
-print(pass[1])
+	print(pass[1])
 print(gifter[1])
+}
+
 
