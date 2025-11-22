@@ -1,4 +1,4 @@
-var gifter = ['Marianne Mah she/her', 'Sarah H. (she/her)', 'Lochlan Neff - she/her', 'Pedro, He/Him', 'Nigel Weiss (he/him)', 'Lizbeth she/her', 'Chaz He/They', 'Lynna (she/her)', 'Catherine Boland (she/her)', 'Nada, she/her', 'Madison Siu (she/her)', 'Chrystopher He/Him', 'Wyatt Hsu he/him', 'Carlos Herrera', 'Taisei Clemens (He/Him)', 'Eddie', 'JD (They/Them)', 'Rhea'];
+var gifter = ['Marianne', 'Sarah', 'Lochlan', 'Pedro', 'Nigel', 'Lizbeth', 'Chaz', 'Lynna', 'Catherine', 'Nada', 'Madison', 'Chrystopher', 'Wyatt', 'Carlos', 'Taisei', 'Eddie', 'JD', 'Rhea'];
 
 var recieve = ['Taisei Clemens (He/Him)', 'Lynna (she/her)', 'Sarah H. (she/her)', 'Madison Siu (she/her)', 'Marianne Mah she/her', 'Rhea', 'JD (They/Them)', 'Wyatt Hsu he/him', 'Chrystopher He/Him', 'Lochlan Neff - she/her', 'Nada, she/her', 'Lizbeth she/her', 'Eddie', 'Chaz He/They', 'Nigel Weiss (he/him)', 'Carlos Herrera', 'Catherine Boland (she/her)', 'Pedro, He/Him'];
 
