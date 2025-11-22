@@ -31,7 +31,7 @@ var pass = [
   'LD43G',
   'Q2XBB',
   '7PMLR',
-  'T4XBB',
+  'password',
   'PYSB1'
 ];
 
